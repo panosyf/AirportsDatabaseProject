@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="007FC52C-277C-A1B5-FA7E-968FDB552E2C" name="Customer_Phone">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>6624A9FF-5A86-51EB-61FC-AABD3280B901</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_Cu_ID" id="2586F6DB-648F-F5BC-3831-147E8B2518C2">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>CA85627A-4F75-E8F0-176E-88E928F88D18</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA1E88C0-AFB3-7957-70A2-3161989B9C07" referredColumn="C245B30D-2F47-DF46-42AB-B254410E60DC"/>
+</associations>
+</Column>
+<Column name="Phone_Ph_LocalNum" id="BCE21F63-6D23-65F4-1A9E-5952865EC2D6">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>8BD6BA82-8137-7A8D-D665-07C5319AAEEF</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C5D48AF-CF8C-2DFD-C158-47D5160A5FFA" referredColumn="783B96FA-C8B4-3A08-5509-F1C4999B3FD0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56E1C8D3-41F5-C06C-9F29-659153C96448" name="Customer_Phone_PK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>1CFDB480-1064-8700-70A5-EC843BD1F3A2</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2586F6DB-648F-F5BC-3831-147E8B2518C2"/>
+<colUsage columnID="BCE21F63-6D23-65F4-1A9E-5952865EC2D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D577F39-EBE1-639E-ACED-E5E0EDC17AFF" name="Customer_Phone_Customer_FK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>42B4E54C-ED99-52A6-1B26-DCBF781B075E</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2586F6DB-648F-F5BC-3831-147E8B2518C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E34F320-FB15-7D8B-1143-0E2FD60F4055" name="Customer_Phone_Phone_FK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>1C99BF98-3A3A-0B1A-9110-AC72999A525A</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCE21F63-6D23-65F4-1A9E-5952865EC2D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

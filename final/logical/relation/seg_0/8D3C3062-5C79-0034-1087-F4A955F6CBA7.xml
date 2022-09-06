@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Has" directorySegmentName="seg_0" id="8D3C3062-5C79-0034-1087-F4A955F6CBA7">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 14:04:33 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<sourcePk>4B88250C-6464-0E7F-8F04-F27B00932996</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>58C5CAF3-B026-D165-B4B9-46B9E345FCAE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BF9DD38A-ED22-B556-FD6F-6A1C2486B9F9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

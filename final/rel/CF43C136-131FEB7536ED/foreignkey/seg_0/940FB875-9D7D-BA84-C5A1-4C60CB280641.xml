@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="940FB875-9D7D-BA84-C5A1-4C60CB280641" containerWithKeyObject="0FD8F548-3182-105B-C923-50C7DEEE56E9" localFKIndex="CAEAB105-F0EC-C9CF-B9A4-1CFDF40AAC1D" name="Customer_Fax_Fax_FK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>08628F64-203E-6B1F-1DBA-246E01767C07</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<referredTableLongName>Fax</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E2FED517-8943-AD52-A0CF-14D521DA416E</referredTableID>
+<keyObject>F9EC1158-D69B-57A0-9CC8-EB083509885D</keyObject>
+<referredKeyID>F9EC1158-D69B-57A0-9CC8-EB083509885D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Fax_LocalNum</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

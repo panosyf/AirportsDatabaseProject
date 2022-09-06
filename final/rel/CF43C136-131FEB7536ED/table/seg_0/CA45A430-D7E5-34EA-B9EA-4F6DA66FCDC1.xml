@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA45A430-D7E5-34EA-B9EA-4F6DA66FCDC1" name="Reserv_Flight">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>A025A368-6E26-A465-600D-C46ACEBDD645</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Reservation_Re_Num" id="27DD7DF8-E880-7D63-F06D-256109ED27D3">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>37184912-55C4-E6A0-9441-C392CA90D9B0</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87F12497-A1F6-058D-C302-6B50DD1DE2C1" referredColumn="373B044C-CC26-22EC-021F-93B12AF7B134"/>
+</associations>
+</Column>
+<Column name="Flight_FlightNum" id="5E241391-E09E-40BE-D9D8-1D5923EA0C3B">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>EA01ECD8-1C8A-A710-DF4C-C3FE22071EE9</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7BE959E-529E-627A-4DDA-72608EDC4C47" referredColumn="926C0D39-BDA5-17B8-7DAA-D2D93383B124"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0161BD9-2579-E9A2-90FD-223A68A6ADD3" name="Reserv_Flight_PK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>A20A8170-7499-5339-2B24-1400589E13A3</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27DD7DF8-E880-7D63-F06D-256109ED27D3"/>
+<colUsage columnID="5E241391-E09E-40BE-D9D8-1D5923EA0C3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2A99735-78A8-E01F-3013-F3432E0CA0B2" name="Reserv_Flight_Reservation_FK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>79118DF9-24DD-E466-8D29-EAB77E9745BB</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27DD7DF8-E880-7D63-F06D-256109ED27D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E40F5A55-AC52-FCCA-67F0-9D15F6CAB1B9" name="Reserv_Flight_Flight_FK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>2E6660D4-C6EC-01B6-5FB6-7991DA0D2EF6</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E241391-E09E-40BE-D9D8-1D5923EA0C3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,42 @@
+INSERT INTO `address` VALUES ("Platwnos", "Kaisariani", "Attica" , 19000, "Greece");
+INSERT INTO `address` VALUES ("Papandreou", "Methana", "Peloponese" , 13000, "Greece");
+INSERT INTO `address` VALUES ("Pesontwn", "Kranidi", "Peloponese" , 14000, "Greece");
+INSERT INTO `address` VALUES ("Fort", "New York", "New York" , 88000, "USA");
+INSERT INTO `address` VALUES ("Newton", "Jacksonvile", "Florida" , 77000, "USA");
+INSERT INTO `address` VALUES ("Noir", "Paris", "	Île-de-France" , 34000, "France");
+
+
+
+INSERT INTO `customer` VALUES ('C001', 'Giannis','Agiannis', "Papandreou");
+INSERT INTO `customer` VALUES ('C002', 'George','Georgopoulos', "Papandreou");
+INSERT INTO `customer` VALUES ('C003', 'Paulos','Paulopoulos', "Papandreou");
+INSERT INTO `customer` VALUES ('C004', 'Jake','Roberts', "Fort");
+INSERT INTO `customer` VALUES ('C005', 'Bruce','Wayne', "Fort");
+INSERT INTO `customer` VALUES ('C006', 'Gerard','Depardieu', "Noir");
+
+
+
+INSERT INTO `flight` VALUES ("F001","USAir", 1, 1, 1, "JFK", "YYZ", "2020-05-10 10:30:00", "2020-05-10 12:30:00", 2, 60, 10, 0, 100, 50);
+INSERT INTO `flight` VALUES ("F002","USAir", 0, 1, 1, "YYZ", "EEX", "2020-06-10 05:30:00", "2020-06-10 6:30:00", 1, 160, 10, 0, 100, 50);
+INSERT INTO `flight` VALUES ("F003","AirCA", 1, 1, 1, "YYZ", "JFK", "2020-05-10 10:30:00", "2020-05-10 12:30:00", 2, 160, 10, 10, 100, 100);
+INSERT INTO `flight` VALUES ("F004","AirCA", 1, 1, 1, "WWE", "EEX", "2020-06-10 10:30:00", "2020-04-10 12:30:00", 2, 50, 10, 10, 100, 50);
+INSERT INTO `flight` VALUES ("F005","BritAir", 0, 1, 1, "YYZ", "JFK", "2020-04-10 10:30:00", "2020-04-10 12:30:00", 2, 100, 10, 10, 100, 50);
+INSERT INTO `flight` VALUES ("F006","USAir", 1, 1, 1, "AAC", "WWE", "2020-06-10 10:30:00", "2020-06-10 12:30:00", 2, 200, 10, 10, 100, 100);
+INSERT INTO `flight` VALUES ("F007","BritAir", 0, 1, 1, "JFK", "YYZ", "2020-06-10 10:30:00", "2020-06-10 12:30:00", 2, 160, 10, 10, 100, 50);
+INSERT INTO `flight` VALUES ("F008","LuftAir", 0, 1, 1, "EEX", "WWE", "2020-05-10 13:30:00", "2020-05-10 15:30:00", 2, 40, 10, 10, 100, 100);
+INSERT INTO `flight` VALUES ("F009","LuftAir", 1, 1, 1, "YYZ", "JFK", "2020-06-10 10:30:00", "2020-06-10 12:30:00", 2, 50, 10, 3, 100, 70);
+
+
+
+INSERT INTO `reservation` VALUES ("R111", "New York", "2020-05-10 12:30:00", "F001", "2020-06-10 05:30:00", "2020-06-10 6:30:00", "Buissnes", 250, 160, "kratimen-exoflimeni", 250, 0, "C002");
+INSERT INTO `reservation` VALUES ("R112", "New York", "2020-05-10 12:30:00", "F006", "2020-06-10 05:30:00", "2020-06-10 6:30:00", "Business", 250, 160, "akurwmeni", 250, 0, "C001");
+INSERT INTO `reservation` VALUES ("R113", "New York", "2020-05-10 12:30:00", "F006", "2020-06-10 05:30:00", "2020-06-10 6:30:00", "Business", 250, 160, "kratimen", 250, 0, "C002");
+INSERT INTO `reservation` VALUES ("R114", "New York", "2020-05-10 12:30:00", "F003", "2020-06-10 05:30:00", "2020-06-10 6:30:00", "Business", 250, 160, "akurwmeni", 250, 0, "C003");
+INSERT INTO `reservation` VALUES ("R115", "New York", "2020-05-10 12:30:00", "F004", "2020-06-10 05:30:00", "2020-06-10 6:30:00", "Business", 250, 160, "akurwmeni", 250, 0, "C003");
+INSERT INTO `reservation` VALUES ("R121", "New York", "2020-05-10 12:30:00", "F003", "2020-06-10 05:30:00", "2020-06-10 6:30:00", "Business", 250, 160, "kratimen-exoflimeni", 250, 0, "C004");
+INSERT INTO `reservation` VALUES ("R131", "New York", "2020-05-10 12:30:00", "F003", "2020-06-10 05:30:00", "2020-06-10 6:30:00", "Business", 250, 160, "kratimen", 250, 0, "C005");
+INSERT INTO `reservation` VALUES ("R122", "New York", "2020-05-10 12:30:00", "F003", "2020-06-10 05:30:00", "2020-06-10 6:30:00", "Business", 250, 160, "akurwmeni", 250, 0, "C006");
+INSERT INTO `reservation` VALUES ("R143", "New York", "2020-05-10 12:30:00", "F001", "2020-06-10 05:30:00", "2020-06-10 6:30:00", "Business", 250, 160, "akurwmeni", 250, 0, "C006");
+INSERT INTO `reservation` VALUES ("R147", "New York", "2020-05-10 12:30:00", "F001", "2020-06-10 05:30:00", "2020-06-10 6:30:00", "Business", 250, 160, "kratimen", 250, 0, "C005");
+INSERT INTO `reservation` VALUES ("R118", "New York", "2020-05-10 12:30:00", "F009", "2020-06-10 05:30:00", "2020-06-10 6:30:00", "Business", 250, 160, "kratimen-exoflimeni", 250, 0, "C002");
+INSERT INTO `reservation` VALUES ("R191", "New York", "2020-05-10 12:30:00", "F007", "2020-06-10 05:30:00", "2020-06-10 6:30:00", "Business", 250, 160, "kratimen-exoflimeni", 250, 0, "C001");

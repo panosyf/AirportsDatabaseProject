@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9EA1426C-34C7-2A95-3EB8-56C1D6F19FD5" name="Customer_Fax">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 13:49:44 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CE07C568-6821-C863-C04D-C017621A58F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cu_ID" id="6942AD1D-381F-E2DF-2CBD-67F347B4C651">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 14:34:15 UTC</createdTime>
+<generatorID>459E54D4-6F15-F741-2748-FF636096B9A9</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CE07C568-6821-C863-C04D-C017621A58F9" value="true"/>
+</engineerTo>
+<referedAttribute>51129F37-AC64-9FCE-5439-9EF0B07EB6E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fax_LocalNum" id="224D9A4A-3F2C-2545-05EA-E14C7B6F9CA2">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 12:42:09 UTC</createdTime>
+<generatorID>08628F64-203E-6B1F-1DBA-246E01767C07</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CE07C568-6821-C863-C04D-C017621A58F9" value="true"/>
+</engineerTo>
+<referedAttribute>A8075EB5-BB47-AF99-94F0-901D4F42418D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31D40544-8BA0-2D75-BD4D-300DF55D9193" name="Customer_Fax PK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 13:56:39 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CE07C568-6821-C863-C04D-C017621A58F9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6942AD1D-381F-E2DF-2CBD-67F347B4C651</attributeRef>
+<attributeRef>224D9A4A-3F2C-2545-05EA-E14C7B6F9CA2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

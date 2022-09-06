@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A025A368-6E26-A465-600D-C46ACEBDD645" name="Reserv_Flight">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 09:56:22 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Re_Num" id="37184912-55C4-E6A0-9441-C392CA90D9B0">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 14:47:38 UTC</createdTime>
+<generatorID>79118DF9-24DD-E466-8D29-EAB77E9745BB</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<referedAttribute>9658B8AA-073E-A491-907C-6D01DA978D51</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FlightNum" id="EA01ECD8-1C8A-A710-DF4C-C3FE22071EE9">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 14:47:54 UTC</createdTime>
+<generatorID>2E6660D4-C6EC-01B6-5FB6-7991DA0D2EF6</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<referedAttribute>1CCB00A8-3B45-7153-1A30-BEADA151804D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A20A8170-7499-5339-2B24-1400589E13A3" name="Availability PK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 18:03:04 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37184912-55C4-E6A0-9441-C392CA90D9B0</attributeRef>
+<attributeRef>EA01ECD8-1C8A-A710-DF4C-C3FE22071EE9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Hasv2" directorySegmentName="seg_0" id="1E41ABA0-03EC-E766-87EE-599834AF188A">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 11:31:27 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="1006732D-1833-419C-78E8-8F000C624B12" value="true"/>
+</engineerTo>
+<sourcePk>4B88250C-6464-0E7F-8F04-F27B00932996</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>58C5CAF3-B026-D165-B4B9-46B9E345FCAE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5A5423C4-E3B2-1E58-D0E6-D7E2CA3E420C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

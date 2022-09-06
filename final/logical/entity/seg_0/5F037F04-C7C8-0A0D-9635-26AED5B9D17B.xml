@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F037F04-C7C8-0A0D-9635-26AED5B9D17B" name="Phone">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 09:58:53 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ph_LocalNum" id="0B8580D5-6E57-BBD8-78F3-F27CE0BB2B50">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:53:36 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ph_StateCode" id="27772066-504D-01F6-A608-7E9190A3BAFD">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:53:00 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ph_CountryCode" id="28BBE097-B182-8DED-BF7E-47B3CD36DDB0">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:51:55 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ph_CuID" id="691D462B-F08F-253B-375E-0B4276300F41">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 19:50:25 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="853D0C5F-E5AF-9E8D-E248-53D2D25EC7D4" name="Phone_Number PK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 17:57:55 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0B8580D5-6E57-BBD8-78F3-F27CE0BB2B50</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

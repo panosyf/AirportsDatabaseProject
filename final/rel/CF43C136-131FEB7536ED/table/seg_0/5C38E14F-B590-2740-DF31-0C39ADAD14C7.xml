@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C38E14F-B590-2740-DF31-0C39ADAD14C7" name="Reservation">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>BF9DD38A-ED22-B556-FD6F-6A1C2486B9F9</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Re_Num" id="373B044C-CC26-22EC-021F-93B12AF7B134">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>9658B8AA-073E-A491-907C-6D01DA978D51</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Re_CityName" id="49E2FF52-5BFF-DFFD-C3B6-F957BDD53FC1">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>C055C393-5520-1530-AD4D-1BF77A5391D4</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>B5516C9F-2BE1-FF6B-5E83-7452597D47B5</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Re_Date" id="D648315F-AB15-2F57-B93D-6F40B1321458">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>1178673F-AFC2-E6A0-3308-864BE35770AA</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Re_FlightNum" id="19F36C35-1020-E40D-0268-6FFFC013FD3D">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>176ED8C9-4018-3708-26AA-DCBCCA86840C</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Re_DepDateTime" id="4E63B327-9AB8-9316-77FC-4D99489742CC">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>F3C7B7B4-3EA5-7BCA-472D-1C7FCDA05963</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Re_ArrDateTime" id="2882D97F-642F-3D80-EEE3-1E2964571F12">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>41FB514F-23E8-E1EF-A737-BB8D9CF74C55</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Res_SeatClass" id="F502DE70-D73F-67C4-8EAE-6260A999195F">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>40FE8E4B-61B7-4BD5-A88F-63082C4AA109</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<domain>B5516C9F-2BE1-FF6B-5E83-7452597D47B5</domain>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Re_TotalPrice" id="0CF3E630-6C1B-0946-9AFC-1D18196AFD32">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>DCF8CBD6-114F-3465-5571-C228143790D8</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Re_FlightCost" id="063C0F7C-DAB6-864E-28E7-AD78BD774247">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>B6E4CEEB-487C-A009-4CCC-B018A6E13BF0</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Re_Status" id="28B5473B-574B-2E80-7C60-5913EE1FAAC9">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>A5378C43-226F-4EC7-9B8E-467D7219E6BA</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>B5516C9F-2BE1-FF6B-5E83-7452597D47B5</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Re_Deposit" id="55A7AACB-D1A1-CEE4-69D9-D8BE8944457A">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>14C4EC31-63A8-8282-7D95-B7B90F2FC4BE</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Re_DepositDue" id="03A4630A-8728-F754-4C35-8500C4579ABB">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>D6EEB392-DFE4-6AA3-29C2-4FA13ECAB7D4</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_Cu_ID" id="9F0338CF-4A2F-66B1-0757-FFE564CE79A3">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>E48DED31-5BFE-03AA-924C-1A4AC39EF3E0</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C11B6D53-6545-34AD-014A-CD7040755D08" referredColumn="C245B30D-2F47-DF46-42AB-B254410E60DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EF53621-7212-DBE7-9801-7D57ED2C6B01" name="Reservation_PK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>9ADA932D-4F4B-D4B8-E5B3-714723A6D0D5</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="373B044C-CC26-22EC-021F-93B12AF7B134"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4BCC300-EA26-76D9-6D81-3C1C198141EB" name="Reservation_Customer_FK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>8D3C3062-5C79-0034-1087-F4A955F6CBA7</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F0338CF-4A2F-66B1-0757-FFE564CE79A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

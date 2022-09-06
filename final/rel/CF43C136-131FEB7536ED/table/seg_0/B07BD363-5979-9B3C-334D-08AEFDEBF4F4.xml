@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B07BD363-5979-9B3C-334D-08AEFDEBF4F4" name="Customer">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>58C5CAF3-B026-D165-B4B9-46B9E345FCAE</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cu_ID" id="C245B30D-2F47-DF46-42AB-B254410E60DC">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>51129F37-AC64-9FCE-5439-9EF0B07EB6E8</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cu_Name" id="1ABCA08C-3631-9690-6132-B23AF598DF4C">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>18B45733-5E9D-72BB-2B35-59A423B65DB8</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>B5516C9F-2BE1-FF6B-5E83-7452597D47B5</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cu_Surname" id="70ABD81F-48A1-FFE8-47A5-739430891A7A">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>0186C72C-4C25-A771-6C95-A45339D8A396</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>B5516C9F-2BE1-FF6B-5E83-7452597D47B5</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address_Ad_Street" id="DE7AEFDF-43B6-B282-04E8-768CBB6B958A">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>4D3F3DE3-1247-F7E0-0A13-026CD234F8CA</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>B5516C9F-2BE1-FF6B-5E83-7452597D47B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="901CBA06-2E02-4035-BAEE-41944B506A28" referredColumn="3A140449-288C-1F71-7F91-D466117604AB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55BEC10B-EEAE-436B-EC13-BBDE241FC7F3" name="Customer_PK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>4B88250C-6464-0E7F-8F04-F27B00932996</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C245B30D-2F47-DF46-42AB-B254410E60DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACEA8DFF-8786-3EBC-4441-10C664B6D59C" name="Customer_Address_FK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>3AABDB6C-FB1E-9712-6F4D-BCADDEB6BFD6</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE7AEFDF-43B6-B282-04E8-768CBB6B958A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

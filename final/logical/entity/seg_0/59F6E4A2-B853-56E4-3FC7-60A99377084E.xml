@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59F6E4A2-B853-56E4-3FC7-60A99377084E" name="Address">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:46:11 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ad_Street" id="78D4027E-D67B-B2BE-CC88-3BE9B18A7290">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:46:35 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>B5516C9F-2BE1-FF6B-5E83-7452597D47B5</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ad_City" id="F94C189B-5EA9-BCE5-2313-BDE8CA22FF76">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:47:06 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>B5516C9F-2BE1-FF6B-5E83-7452597D47B5</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ad_State" id="87895DD6-0282-4BA1-77E9-687FF6515002">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:47:23 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>B5516C9F-2BE1-FF6B-5E83-7452597D47B5</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ad_ZIP" id="7327F1B3-EE7D-B961-39D5-120A6F4A05CA">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:47:51 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ad_Country" id="DB717F78-200E-1C91-83C1-6E25A45F92FF">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:49:25 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>B5516C9F-2BE1-FF6B-5E83-7452597D47B5</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75E9969F-06F0-D2B9-5A31-74729034AB21" name="Address PK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 17:57:15 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78D4027E-D67B-B2BE-CC88-3BE9B18A7290</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

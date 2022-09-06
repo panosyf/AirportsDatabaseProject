@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6624A9FF-5A86-51EB-61FC-AABD3280B901" name="Customer_Phone">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 13:48:48 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CE07C568-6821-C863-C04D-C017621A58F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cu_ID" id="CA85627A-4F75-E8F0-176E-88E928F88D18">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 14:34:15 UTC</createdTime>
+<generatorID>42B4E54C-ED99-52A6-1B26-DCBF781B075E</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CE07C568-6821-C863-C04D-C017621A58F9" value="true"/>
+</engineerTo>
+<referedAttribute>51129F37-AC64-9FCE-5439-9EF0B07EB6E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ph_LocalNum" id="8BD6BA82-8137-7A8D-D665-07C5319AAEEF">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 12:41:55 UTC</createdTime>
+<generatorID>1C99BF98-3A3A-0B1A-9110-AC72999A525A</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CE07C568-6821-C863-C04D-C017621A58F9" value="true"/>
+</engineerTo>
+<referedAttribute>0B8580D5-6E57-BBD8-78F3-F27CE0BB2B50</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CFDB480-1064-8700-70A5-EC843BD1F3A2" name="Customer_Phone PK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 13:57:05 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CE07C568-6821-C863-C04D-C017621A58F9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA85627A-4F75-E8F0-176E-88E928F88D18</attributeRef>
+<attributeRef>8BD6BA82-8137-7A8D-D665-07C5319AAEEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

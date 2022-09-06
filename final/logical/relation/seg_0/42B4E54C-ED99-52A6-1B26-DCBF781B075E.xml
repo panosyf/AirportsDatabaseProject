@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Hasv5" directorySegmentName="seg_0" id="42B4E54C-ED99-52A6-1B26-DCBF781B075E">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 13:57:05 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="1006732D-1833-419C-78E8-8F000C624B12" value="true"/>
+</engineerTo>
+<sourcePk>4B88250C-6464-0E7F-8F04-F27B00932996</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>58C5CAF3-B026-D165-B4B9-46B9E345FCAE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6624A9FF-5A86-51EB-61FC-AABD3280B901</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

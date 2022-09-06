@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF9DD38A-ED22-B556-FD6F-6A1C2486B9F9" name="Reservation">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 09:58:22 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Re_Num" id="9658B8AA-073E-A491-907C-6D01DA978D51">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 16:31:57 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Re_CityName" id="C055C393-5520-1530-AD4D-1BF77A5391D4">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 16:32:38 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>B5516C9F-2BE1-FF6B-5E83-7452597D47B5</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Re_Date" id="1178673F-AFC2-E6A0-3308-864BE35770AA">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 16:33:23 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Re_FlightNum" id="176ED8C9-4018-3708-26AA-DCBCCA86840C">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 16:38:32 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Re_DepDateTime" id="F3C7B7B4-3EA5-7BCA-472D-1C7FCDA05963">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 16:42:22 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Re_ArrDateTime" id="41FB514F-23E8-E1EF-A737-BB8D9CF74C55">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 16:43:57 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Res_SeatClass" id="40FE8E4B-61B7-4BD5-A88F-63082C4AA109">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 16:47:36 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<domain>B5516C9F-2BE1-FF6B-5E83-7452597D47B5</domain>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Re_TotalPrice" id="DCF8CBD6-114F-3465-5571-C228143790D8">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 16:48:24 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Re_FlightCost" id="B6E4CEEB-487C-A009-4CCC-B018A6E13BF0">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 16:49:09 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Re_Status" id="A5378C43-226F-4EC7-9B8E-467D7219E6BA">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 16:51:24 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>B5516C9F-2BE1-FF6B-5E83-7452597D47B5</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Re_Deposit" id="14C4EC31-63A8-8282-7D95-B7B90F2FC4BE">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 13:27:26 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Re_DepositDue" id="D6EEB392-DFE4-6AA3-29C2-4FA13ECAB7D4">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 13:30:25 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cu_ID" id="E48DED31-5BFE-03AA-924C-1A4AC39EF3E0">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 14:34:15 UTC</createdTime>
+<generatorID>8D3C3062-5C79-0034-1087-F4A955F6CBA7</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>51129F37-AC64-9FCE-5439-9EF0B07EB6E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9ADA932D-4F4B-D4B8-E5B3-714723A6D0D5" name="Reservation PK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 16:32:17 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="CF43C136-E0DF-7C49-DD2D-131FEB7536ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9658B8AA-073E-A491-907C-6D01DA978D51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

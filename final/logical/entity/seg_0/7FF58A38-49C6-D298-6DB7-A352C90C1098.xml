@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FF58A38-49C6-D298-6DB7-A352C90C1098" name="Fax">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:54:31 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fax_LocalNum" id="A8075EB5-BB47-AF99-94F0-901D4F42418D">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:54:31 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fax_StateCode" id="8AB1182C-3E62-8A2F-F8DE-27B21C3D07A9">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:54:31 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fax_CountryCode" id="4824E2A3-083F-6E92-CAD9-4315BB4627A1">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:54:31 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fax_CuID" id="7BFCD621-01C6-40B6-3552-E0B9B7F2164C">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 19:48:49 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4C56495-028F-93C7-3319-CCA822C0CA36" name="Fax_Number PK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 17:58:49 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8075EB5-BB47-AF99-94F0-901D4F42418D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

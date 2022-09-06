@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A5423C4-E3B2-1E58-D0E6-D7E2CA3E420C" name="Email">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 09:59:43 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Em_Address" id="F4611647-2721-2094-19D5-D35F77ADB5ED">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:56:11 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<domain>B5516C9F-2BE1-FF6B-5E83-7452597D47B5</domain>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cu_ID" id="E6226A7A-0093-BB14-C3A4-D254EAB31E54">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 14:34:15 UTC</createdTime>
+<generatorID>1E41ABA0-03EC-E766-87EE-599834AF188A</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>51129F37-AC64-9FCE-5439-9EF0B07EB6E8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48E87E84-7C16-0281-AC90-812FB434C210" name="Email PK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-15 19:48:08 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="C9610E40-BF2F-6815-1311-606BDDDCB11A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4611647-2721-2094-19D5-D35F77ADB5ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FD8F548-3182-105B-C923-50C7DEEE56E9" name="Customer_Fax">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>9EA1426C-34C7-2A95-3EB8-56C1D6F19FD5</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_Cu_ID" id="1F91DA89-B2D1-7A5C-B371-97BCD90B005C">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>6942AD1D-381F-E2DF-2CBD-67F347B4C651</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE045432-C684-ECB1-80B4-9D4F59CD4B72" referredColumn="C245B30D-2F47-DF46-42AB-B254410E60DC"/>
+</associations>
+</Column>
+<Column name="Fax_Fax_LocalNum" id="0BD1C8FD-4E73-1619-D341-AED378EED010">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>224D9A4A-3F2C-2545-05EA-E14C7B6F9CA2</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="940FB875-9D7D-BA84-C5A1-4C60CB280641" referredColumn="AF609791-9268-FC39-0785-677D2F752D5C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5C816A5-6B7C-A3DD-8164-57F94FE2B0C3" name="Customer_Fax_PK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>31D40544-8BA0-2D75-BD4D-300DF55D9193</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F91DA89-B2D1-7A5C-B371-97BCD90B005C"/>
+<colUsage columnID="0BD1C8FD-4E73-1619-D341-AED378EED010"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF3B38B3-9771-A054-4758-C7ED875AB156" name="Customer_Fax_Customer_FK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>459E54D4-6F15-F741-2748-FF636096B9A9</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F91DA89-B2D1-7A5C-B371-97BCD90B005C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAEAB105-F0EC-C9CF-B9A4-1CFDF40AAC1D" name="Customer_Fax_Fax_FK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>08628F64-203E-6B1F-1DBA-246E01767C07</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BD1C8FD-4E73-1619-D341-AED378EED010"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

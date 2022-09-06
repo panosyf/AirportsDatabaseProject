@@ -1,0 +1,216 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7063CAB-F76D-B471-2B8F-3EE23FD34A87" name="Flight">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 09:56:06 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FlightNum" id="1CCB00A8-3B45-7153-1A30-BEADA151804D">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 14:57:33 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_AirCode" id="0E1821C9-C5B7-3E48-5112-12940A03A366">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 14:58:08 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_BusAv" id="36901209-8F45-A164-CEC0-D774DE8F9E59">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 14:58:50 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_SmokAv" id="4E0A8FAA-B81F-9333-BF9D-14C592C37571">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 15:01:09 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_AvStatus" id="531E6867-352D-7058-C71B-50D1EDB5A416">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 14:57:05 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_DepCityCode" id="066D3A02-AAAB-CD42-43E2-B7B567E5FC1E">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 14:58:02 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_ArrCityCode" id="B0BF0944-E3FC-7209-EF69-B3E5107215D5">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 14:58:47 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97EACEEC-7E55-5CA8-AECE-D01B1BD1096C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_DepDateTime" id="D34A8815-4B63-DD94-257E-62736FC9E9DA">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:03:33 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_ArrDateTime" id="F3A40553-641E-1BB3-1825-DAE18389FE74">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:04:12 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_Duration" id="2ACC05E4-2397-7531-5F02-0BC37E9BCE24">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 14:59:13 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_Cost" id="B1AC5FA2-062F-CDBA-C4D9-33948E194EDA">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 14:59:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_TotalBus" id="D9A05776-E499-A604-1B7D-85E0C074B3C2">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:00:39 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_OccuBus" id="E1E72DF9-2335-291E-D995-C7B3E106CE52">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:01:16 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_TotalEco" id="D125F2DA-78F9-86CE-FABA-15ABB33FE90B">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:02:03 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_OccuEco" id="8F22E5D6-0360-2307-CA69-83AE3CAA0D61">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:02:23 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7556914E-D216-C7ED-C6C5-60E7FD1C5300" name="Flight PK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-09 14:57:59 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="4C9544AE-E3DD-DFB1-1D2C-E3ADDF1D10A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1CCB00A8-3B45-7153-1A30-BEADA151804D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

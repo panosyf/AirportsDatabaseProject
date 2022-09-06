@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C5D48AF-CF8C-2DFD-C158-47D5160A5FFA" containerWithKeyObject="007FC52C-277C-A1B5-FA7E-968FDB552E2C" localFKIndex="6E34F320-FB15-7D8B-1143-0E2FD60F4055" name="Customer_Phone_Phone_FK">
+<createdBy>Panos</createdBy>
+<createdTime>2020-04-29 15:12:26 UTC</createdTime>
+<generatorID>1C99BF98-3A3A-0B1A-9110-AC72999A525A</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<referredTableLongName>Phone</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9BAE74DC-C649-C2BA-9EFD-E96C5C46EBE8</referredTableID>
+<keyObject>A2E3F6B8-B5D7-E387-DB62-D2F0B4328665</keyObject>
+<referredKeyID>A2E3F6B8-B5D7-E387-DB62-D2F0B4328665</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Ph_LocalNum</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

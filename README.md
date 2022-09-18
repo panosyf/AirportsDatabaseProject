@@ -1,6 +1,6 @@
 # AirportsDatabaseProject
 
-In the context of bachelors degree, I was asked to develop an entity-relationship model that represents the above process and to
+In the context of my bachelors degree, I was asked to develop an entity-relationship model that represents the above process and to
 converted to a relational model. 
 Then implement the Database (DB) and develop a Java application through it
 of which, the user will be able to enter data in the NW and display the results of
